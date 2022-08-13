@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/41cc883028.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/ui.png">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <!-------------Navigation Bar --------------->
+            <nav>
+                <a href="#header"><div class="logo">DESIGN <span>i</span>T</div></a>
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#port">WORK</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <!------------- Main Header Text -------------->
+            <div class="header-text">
+                <h1>UI/UX Designer</h1>
+                <p>It's a Beautiful Day. Lets make the Most Of It.</p>
+            </div>
+        </div>
+    </div>
+    <!-- -------------About section ---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 id="heading">About Me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit delectus temporibus id
+                        eum neque culpa sapiente corporis? Praesentium, quisquam omnis cum officia libero aliquid ad
+                        facere dignissimos inventore, quas aperiam.</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">SKILLS</div>
+                        <div class="tab-links" onclick="opentab('exp')">EXPERIENCE</div>
+                        <div class="tab-links" onclick="opentab('edu')">EDUCATION</div>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designing Web/APP Interfaces</li>
+                            <li><span>APP Development</span><br> Designing APP Interface</li>
+                            <li><span>Web Development</span><br> Designing Web Pages</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="exp">
+                        <ul>
+                            <li><span>UI/UX</span><br>No EXPERIENCE</li>
+                            <li><span>APP Development</span><br>No EXPERIENCE</li>
+                            <li><span>Web Development</span><br>No EXPERIENCE </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="edu">
+                        <ul>
+                            <li><span>2020</span><br>HSC From Shankar Narayan Collage</li>
+                            <li><span>2024</span><br>Bsc.IT From Mumbai University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------Service section ---------------->
+    <div id="services">
+        <div class="container">
+            <h1 id="heading">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error perferendis amet totam
+                        tenetur repellat adipisci ab repudiandae.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Design</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error perferendis amet totam
+                        tenetur repellat adipisci ab repudiandae.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum error perferendis amet totam
+                        tenetur repellat adipisci ab repudiandae.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Portfolio section ---------------->
+    <div id="port">
+        <div class="container">
+            <h1 id="heading">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work">
+                    <div class="layer">
+                        <h3>Android App</h3><br>
+                        <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet. consectetur adipisicing elit. Quam
+                            aut at magni architecto praesentium a</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work">
+                    <div class="layer">
+                        <h3>Music Player</h3><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aut at magni architecto
+                            praesentium a</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work">
+                    <div class="layer">
+                        <h3>Web Design</h3><br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Contact section ---------------->
+    <div id="contact">
+        <div class="container">
+            <h1 id="heading">Contact Me</h1>
+            <div class="row">
+                <div class="cont-left">                   
+                    <p><i class="fa-solid fa-envelope"></i>example@design.com</p>
+                    <p><i class="fa-solid fa-phone"></i>1234567890</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="cont-right">
+                    <form name="submit-to-google-sheet">
+                        <input name="Name" type="Name" placeholder="Your Name">
+                        <input type="Email" name="Email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------Footer section ---------------->
+    <footer>
+         <p>Designed by Yuvraj Verma</p>
+    </footer>
+
+</body>
+
+</html>
